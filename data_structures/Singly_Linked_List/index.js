@@ -1,10 +1,11 @@
-const { Node, SinglyLinkedList } = require('./SinglyLinkedList');
+const SinglyLinkedList = require('./SinglyLinkedList');
 
 let list = new SinglyLinkedList();
 
-list.push('hello');
-list.push(' ');
-list.push('world');
-list.push('Goodbye');
+list.push('2');
+list.push('3');
+list.push('4');
 
-console.log(list.head);
+list.reverse();
+
+list.print();
